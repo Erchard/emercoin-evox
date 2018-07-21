@@ -1,2 +1,2 @@
 # emercoin-evox
-Test library for connect to Emercoin blockchain
+Vote library for connect to Emercoin blockchain
