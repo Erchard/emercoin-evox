@@ -1,0 +1,34 @@
+{
+  "id": "testvote234",
+  "name": "Размер членских взносов",
+  "options": [
+    {
+      "address": "EXsNNqW2pS4MRADtQF8PdZBEMdRgaM5q79",
+      "name": "1000+",
+      "description": "Более 1000 рублей в месяц"
+    },
+    {
+      "address": "fXsNNqW2pS4MRADtQF8PdZBEMdRgaM5q79",
+      "name": "100-1000",
+      "description": "От 100 до 1000 рублей в месяц"
+    },
+    {
+      "address": "gXsNNqW2pS4MRADtQF8PdZBEMdRgaM5q79",
+      "name": "\u003c 100",
+      "description": "Менее 100 рублей в месяц"
+    },
+    {
+      "address": "hXsNNqW2pS4MRADtQF8PdZBEMdRgaM5q79",
+      "name": "0",
+      "description": "Не надо"
+    }
+  ],
+  "initiatorPublicKey": "MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAn17BfA1gYeEde5i/JhQKv7D8WXPsXb4R0kMlHdA4HYgc3lsx5CzqcsXHKElvXqG8c8jBDvBK6wE4yDxKMjTj7wnTxCJbfG6vdfF7meTqzrV2mW3OgaKcvkuwsq7thQEIRz609/xUGMdc0Gh6W0KTdRLiXfGOWVVoxIYRHwnffQzH/s1Nzxhd/XwzS7WnqHVJNr/TMoPPvOS74bCQ9o02+Qb09y4jxqmIboL5YgKhxHwrP0l1s28JODNhrz2iV7C4WE+t7piXlt+seA4FarAwBECbu37QGjCVdoS6yh2xDGnuW05U461fknoKgXSe/iNzeRHJrc74z2xdrmfIKF4VcwIBAw==",
+  "requiredInfo": {
+    "lastname": "Фамилия",
+    "firstname": "Имя",
+    "idcard": "Номер удостоверения"
+  },
+  "start": 1531399341956,
+  "finish": 1531485741956
+}

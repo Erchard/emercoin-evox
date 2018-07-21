@@ -1,0 +1,13 @@
+{
+  "result": {
+    "name": "evote:presvote31",
+    "value": "{\"id\":\"presvote31\",\"name\":\"Разме�\u0080 �\u0087лен�\u0081ки�\u0085 взно�\u0081ов\",\"options\":[{\"address\":\"n2j5nuFEo4G9YsD5urYWXcS52Whb6PY5ft\",\"name\":\"1000+\",\"description\":\"�\u0091олее 1000 �\u0080�\u0083блей в ме�\u0081�\u008F�\u0086\"},{\"address\":\"ms9Psn6q8uQwcU5dkcphcegH9tTyUgEoXk\",\"name\":\"100-1000\",\"description\":\"�\u009E�\u0082 100 до 1000 �\u0080�\u0083блей в ме�\u0081�\u008F�\u0086\"},{\"address\":\"moiW7uTEfkdeppmtyLs8NPum7tBZ2vkMmq\",\"name\":\"< 100\",\"description\":\"�\u009Cенее 100 �\u0080�\u0083блей в ме�\u0081�\u008F�\u0086\"},{\"address\":\"mrJj6tJgWzPALZYxT9LkLdseqSaZMvdn7Y\",\"name\":\"0\",\"description\":\"�\u009Dе надо\"}],\"initiatorPublicKey\":\"MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAjEUfpOFfWZ4L1r2sbKuatpRJlDjxPZJ/vzuchjIq7fzP9dFL09L2MBj7bnhzCVih1+k/LtEOtt0usq8ROKGXaI+wP5piStdu1vISOML+6L6lb71ehHoZRkTRgFDebINCZqdtXRJIQ6kAHIoVp3RLA/OY0yoPyYSkUZUzt/tCVqO5d89hNuInpRZx0mW2kV0NGo+H0QZuI2qMyBlONb+ptXF6EVejOyvRHe1KwGjn4GKcQlYjDBHgTl54t0ef/dHF7nChT5DoSJUaBtyapwh7GKB1luSEEWndWQe6mjiQaFboBa3lcNdnWycvR8Ft8J9PdX/FoASZOAfAJvTtO4snWwIBAw==\",\"requiredInfo\":{\"secondname\":\"Фамили�\u008F\",\"firstname\":\"�\u0098м�\u008F\",\"idcard\":\"�\u009Dоме�\u0080 �\u0083до�\u0081�\u0082ове�\u0080ени�\u008F\"},\"start\":1531413155938,\"finish\":1531499555938}",
+    "txid": "07745a3d63a79f519f5cba64a138a878d3132b26589b4ea69e12efb794320b92",
+    "address": "n4NLZXEw9o154yJzXxak5YJ6wXNc1Bc3Yd",
+    "expires_in": 639275,
+    "expires_at": 697316,
+    "time": 1531326757
+  },
+  "error": null,
+  "id": 4
+}

@@ -1,0 +1,18 @@
+{
+  "result": [
+    {
+      "name": "evote:presvote51",
+      "value": "{\"id\":\"presvote51\",\"name\":\"Разме�\u0080 �\u0087лен�\u0081ки�\u0085 взно�\u0081ов\",\"options\":[{\"address\":\"EXsNNqW2pS4MRADtQF8PdZBEMdRgaM5q79\",\"name\":\"1000+\",\"description\":\"�\u0091олее 1000 �\u0080�\u0083блей в ме�\u0081�\u008F�\u0086\"},{\"address\":\"fXsNNqW2pS4MRADtQF8PdZBEMdRgaM5q79\",\"name\":\"100-1000\",\"description\":\"�\u009E�\u0082 100 д�\n...(value too large - use name_show to see full value)",
+      "registered_at": 57629,
+      "expires_in": 5539
+    },
+    {
+      "name": "evote:presvote5671",
+      "value": "{\"id\":\"presvote5671\",\"name\":\"Разме�\u0080 �\u0087лен�\u0081ки�\u0085 взно�\u0081ов\",\"options\":[{\"address\":\"mruhfRxphAVosLctDm8y7qkC29Xj5KLHBw\",\"name\":\"1000+\",\"description\":\"�\u0091олее 1000 �\u0080�\u0083блей в ме�\u0081�\u008F�\u0086\"},{\"address\":\"mqZY634Vv66PdxVdXG6pMkX9GU4TfsB9Hd\",\"name\":\"100-1000\",\"description\":\"�\u009E�\u0082 100 �\n...(value too large - use name_show to see full value)",
+      "registered_at": 57632,
+      "expires_in": 638867
+    }
+  ],
+  "error": null,
+  "id": 1
+}
