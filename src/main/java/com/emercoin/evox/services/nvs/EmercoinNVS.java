@@ -86,14 +86,6 @@ public class EmercoinNVS {
         this.rpcService = rpcService;
     }
 
-    public static void main(String[] args) throws UnsupportedEncodingException {
-        EmercoinNVS emercoinNVS = new EmercoinNVS();
-
-        List<String> result = emercoinNVS.getAllByPrefix("evote");
-        for (String record : result) {
-            System.out.println(record);
-        }
-    }
 
     class NameFilterDTO {
         List<RecordDTO> result;

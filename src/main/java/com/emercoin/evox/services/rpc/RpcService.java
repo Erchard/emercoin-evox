@@ -115,9 +115,4 @@ public class RpcService {
         this.port = port;
     }
 
-    public static void main(String[] args) {
-        RpcService rpcService = new RpcService();
-        String responce = rpcService.request("name_new", Arrays.asList("kluch", "znachenie", 45));
-        System.out.println(responce);
-    }
 }

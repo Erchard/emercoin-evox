@@ -206,39 +206,4 @@ public class BlindService {
         return new BigInteger(msg);  //create a BigInteger object based on the extracted bytes of the message
     }
 
-    public static void main(String[] args) {
-
-        BlindService blindService = new BlindService();
-
-        KeyPair initiatorKeyPair = blindService.produceInitiatorKeyPair();
-
-        RSAPublicKey initiatorPublicKey = (RSAPublicKey) initiatorKeyPair.getPublic();
-
-        System.out.println("Public Key: " + Base64.encodeBase64String(initiatorPublicKey.getEncoded()));
-
-        String text = "mh4iqeBQFtvFgn3jCTe8odJ51onmmd38gS"; //My secret Wallet address
-
-        System.out.println("text: " + text);
-
-        BigInteger blindData = blindService.blindData(text, initiatorPublicKey);
-
-        System.out.println("blindData: " + blindData.toString(16));
-
-        BigInteger blindRandom = blindService.getSecretRandomForBlind();
-
-        System.out.println("blindRandom: " + blindRandom.toString(16));
-
-        BigInteger initiatorBlindSign = blindService.initiatorBlindSign(blindData, initiatorKeyPair);
-
-        System.out.println("initiatorBlindSign: " + initiatorBlindSign.toString(16));
-
-        String sign = blindService.deblindSign(initiatorBlindSign, initiatorPublicKey);
-
-        System.out.println("sign: " + sign);
-
-        boolean result = blindService.verify(text, sign, initiatorPublicKey);
-
-        System.out.println(result ? "Ok!" : "Sign is not valid");
-
-    }
 }

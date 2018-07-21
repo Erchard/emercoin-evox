@@ -33,8 +33,4 @@ public class WalletService {
         return account;
     }
 
-    public static void main(String[] args) {
-        WalletService walletService = new WalletService();
-        System.out.println(walletService.getNewAddress("my_a_acc"));
-    }
 }
